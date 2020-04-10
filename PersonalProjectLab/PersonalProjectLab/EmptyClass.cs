@@ -20,13 +20,17 @@ namespace PersonalProjectLab
 
         }
 
+        public sensorreader()
+        {
+        }
+
         public void updatesensorreading(int currentreading)
         {
             Currentreading = currentreading;
             Checksensor();
         }
 
-        private void Checksensor()
+        public void Checksensor()
         {
             if (Currentreading > Warninglevel)
             {

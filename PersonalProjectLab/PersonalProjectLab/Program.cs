@@ -74,7 +74,7 @@ namespace PersonalProjectLab
                 static void PrintSensorStatus(string sensorname, bool sensorsafestatus)
                 {
                     Console.WriteLine(sensorname);
-                    Console.WriteLine("Is it safe?" + sensorsafestatus);
+                    Console.WriteLine("Is this a healthy level?" + sensorsafestatus);
 
                 }
 
@@ -110,7 +110,7 @@ namespace PersonalProjectLab
 
 
                
-                Console.Write(" quit ?");
+                Console.Write(" quit ? Enter yes or no");
                input2 = Console.ReadLine();
 
 
